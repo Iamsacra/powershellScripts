@@ -70,7 +70,7 @@ foreach ($destination in $destinations) {
         break
     }
     catch {
-		Write-Host "Unable to write to $destination"
+        Write-Host "Unable to write to $destination"
         Write-Host "Trying the next destination..."
     }
 }
